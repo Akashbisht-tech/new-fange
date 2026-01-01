@@ -108,14 +108,13 @@
     height: 345px;
     display: flex;
     flex-direction: column;
-
     gap: 10px;
 }
-.leftcard p{
+.mainp{
+    border: 1px solid black;
     font-size: 23px;
-    color: #9A9494;
+    color: #120b0b;
     font-weight: 400;
-    
 }
 .leftcard h1{
     font-weight: 700;
@@ -131,6 +130,7 @@
     /* align-items: center; */
     gap: 30px;
 }
+
 .mainsearch{
     display: flex;
     
