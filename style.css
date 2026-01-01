@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.card1{
+    width: 1440px;
+    height: 4792px;
+    border: 1px solid black;
+    
+}
+.container{
+    width: 1440px;
+    height: 900px;
+    background-color:#EFF0F3;
+    border: 1px solid black;
+    margin: auto;
+    
+
+
+}
+.nav{
+    width: 1440px;
+    height: 86px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f9;
+}
+.navlogo{
+    width: 194px;
+    height: 45px;
+    position: absolute;
+    top:26px;
+    left: 95px;
+}
+.linkcontainer{
+    width: 756px;
+    height: 44px;
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    left: 589px;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 50px;
+
+}
+.navlink{
+    width: 424px;
+    height: 25px;
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    /* border: 1px solid black; */
+}
+.navlink li a{
+    color: black;
+}
+
+.coffeeimg {
+    width: 213px;
+    height: 44px;
+    background-color: #6246EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    gap: 10px;
+
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.coffeeimg img{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* ==------------------==-----------------------------== */
+
+.maincard{
+    margin-top: 100px;
+    /* border: 1px solid rgb(21, 13, 172); */
+    width: 1342px;
+    height: 838.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -46px;
+    left: 49px;
+}
+.leftcard{
+
+    width: 664px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+.leftcard p{
+    font-size: 23px;
+    color: #9A9494;
+    font-weight: 400;
+    
+}
+.leftcard h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #2B2C34;
+    font-weight: 400;
+    font-style: bold;
+
+}
+.mainheading{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+}
+.mainsearch{
+    display: flex;
+    
+    gap: 20px;
+    width: 609px;
+    height: 67px;
+}
+.mainsearch input{
+    width: 444px;
+    height: 67px;
+    border: wheat;
+    border-radius: 8px;
+}
+.mainsearch button{
+    width: 145px;
+    color: white;
+    border: wheat;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #6246EA;
+}
+.rightcard{
+    width:470px ;
+    height:387px ;
+}
